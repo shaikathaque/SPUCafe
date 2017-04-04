@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPUCafe.Core", "SPUCafe.Core\SPUCafe.Core.csproj", "{56B9A3F1-92F1-43F2-AA5B-393ADFDCBBD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPUCafe.Droid", "SPUCafe.Droid\SPUCafe.Droid.csproj", "{A05DE48B-7387-4FAA-8B46-1548A66480B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56B9A3F1-92F1-43F2-AA5B-393ADFDCBBD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B9A3F1-92F1-43F2-AA5B-393ADFDCBBD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B9A3F1-92F1-43F2-AA5B-393ADFDCBBD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B9A3F1-92F1-43F2-AA5B-393ADFDCBBD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A05DE48B-7387-4FAA-8B46-1548A66480B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A05DE48B-7387-4FAA-8B46-1548A66480B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A05DE48B-7387-4FAA-8B46-1548A66480B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A05DE48B-7387-4FAA-8B46-1548A66480B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
