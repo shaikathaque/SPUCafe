@@ -70,6 +70,45 @@ namespace SPUCafe.Droid
 			global::MvvmCross.Droid.Support.Fragment.Resource.Styleable.MvxListView = global::SPUCafe.Droid.Resource.Styleable.MvxListView;
 			global::MvvmCross.Droid.Support.Fragment.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::SPUCafe.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
 			global::MvvmCross.Droid.Support.Fragment.Resource.Styleable.MvxListView_MvxItemTemplate = global::SPUCafe.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxBind = global::SPUCafe.Droid.Resource.Attribute.MvxBind;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxDropDownItemTemplate = global::SPUCafe.Droid.Resource.Attribute.MvxDropDownItemTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxGroupItemTemplate = global::SPUCafe.Droid.Resource.Attribute.MvxGroupItemTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxItemTemplate = global::SPUCafe.Droid.Resource.Attribute.MvxItemTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxLang = global::SPUCafe.Droid.Resource.Attribute.MvxLang;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxSource = global::SPUCafe.Droid.Resource.Attribute.MvxSource;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxTemplate = global::SPUCafe.Droid.Resource.Attribute.MvxTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxTemplateSelector = global::SPUCafe.Droid.Resource.Attribute.MvxTemplateSelector;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.layoutManager = global::SPUCafe.Droid.Resource.Attribute.layoutManager;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.reverseLayout = global::SPUCafe.Droid.Resource.Attribute.reverseLayout;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.spanCount = global::SPUCafe.Droid.Resource.Attribute.spanCount;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.stackFromEnd = global::SPUCafe.Droid.Resource.Attribute.stackFromEnd;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::SPUCafe.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::SPUCafe.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::SPUCafe.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.MvvmCrossTagId = global::SPUCafe.Droid.Resource.Id.MvvmCrossTagId;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.MvxBindingTagUnique = global::SPUCafe.Droid.Resource.Id.MvxBindingTagUnique;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.item_touch_helper_previous_elevation = global::SPUCafe.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxBinding = global::SPUCafe.Droid.Resource.Styleable.MvxBinding;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxBinding_MvxBind = global::SPUCafe.Droid.Resource.Styleable.MvxBinding_MvxBind;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxBinding_MvxLang = global::SPUCafe.Droid.Resource.Styleable.MvxBinding_MvxLang;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxControl = global::SPUCafe.Droid.Resource.Styleable.MvxControl;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxControl_MvxTemplate = global::SPUCafe.Droid.Resource.Styleable.MvxControl_MvxTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxExpandableListView = global::SPUCafe.Droid.Resource.Styleable.MvxExpandableListView;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::SPUCafe.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxImageView = global::SPUCafe.Droid.Resource.Styleable.MvxImageView;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxImageView_MvxSource = global::SPUCafe.Droid.Resource.Styleable.MvxImageView_MvxSource;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxListView = global::SPUCafe.Droid.Resource.Styleable.MvxListView;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::SPUCafe.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxListView_MvxItemTemplate = global::SPUCafe.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxRecyclerView = global::SPUCafe.Droid.Resource.Styleable.MvxRecyclerView;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxRecyclerView_MvxTemplateSelector = global::SPUCafe.Droid.Resource.Styleable.MvxRecyclerView_MvxTemplateSelector;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView = global::SPUCafe.Droid.Resource.Styleable.RecyclerView;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_android_descendantFocusability = global::SPUCafe.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_android_orientation = global::SPUCafe.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_layoutManager = global::SPUCafe.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_reverseLayout = global::SPUCafe.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_spanCount = global::SPUCafe.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_stackFromEnd = global::SPUCafe.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
 		}
 		
 		public partial class Animation
@@ -152,26 +191,29 @@ namespace SPUCafe.Droid
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7f01013a
-			public const int MvxBind = 2130772282;
-			
-			// aapt resource value: 0x7f01013e
-			public const int MvxDropDownItemTemplate = 2130772286;
+			// aapt resource value: 0x7f01013b
+			public const int MvxBind = 2130772283;
 			
 			// aapt resource value: 0x7f01013f
-			public const int MvxGroupItemTemplate = 2130772287;
-			
-			// aapt resource value: 0x7f01013d
-			public const int MvxItemTemplate = 2130772285;
-			
-			// aapt resource value: 0x7f01013b
-			public const int MvxLang = 2130772283;
+			public const int MvxDropDownItemTemplate = 2130772287;
 			
 			// aapt resource value: 0x7f010140
-			public const int MvxSource = 2130772288;
+			public const int MvxGroupItemTemplate = 2130772288;
+			
+			// aapt resource value: 0x7f01013e
+			public const int MvxItemTemplate = 2130772286;
 			
 			// aapt resource value: 0x7f01013c
-			public const int MvxTemplate = 2130772284;
+			public const int MvxLang = 2130772284;
+			
+			// aapt resource value: 0x7f010141
+			public const int MvxSource = 2130772289;
+			
+			// aapt resource value: 0x7f01013d
+			public const int MvxTemplate = 2130772285;
+			
+			// aapt resource value: 0x7f01013a
+			public const int MvxTemplateSelector = 2130772282;
 			
 			// aapt resource value: 0x7f010093
 			public const int actionBarDivider = 2130772115;
@@ -2233,8 +2275,8 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a0010
 			public const int MvxBindingTagUnique = 2131361808;
 			
-			// aapt resource value: 0x7f0a0086
-			public const int action0 = 2131361926;
+			// aapt resource value: 0x7f0a0089
+			public const int action0 = 2131361929;
 			
 			// aapt resource value: 0x7f0a0066
 			public const int action_bar = 2131361894;
@@ -2257,17 +2299,17 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a0043
 			public const int action_bar_title = 2131361859;
 			
-			// aapt resource value: 0x7f0a0083
-			public const int action_container = 2131361923;
+			// aapt resource value: 0x7f0a0086
+			public const int action_container = 2131361926;
 			
 			// aapt resource value: 0x7f0a0067
 			public const int action_context_bar = 2131361895;
 			
-			// aapt resource value: 0x7f0a008a
-			public const int action_divider = 2131361930;
+			// aapt resource value: 0x7f0a008d
+			public const int action_divider = 2131361933;
 			
-			// aapt resource value: 0x7f0a0084
-			public const int action_image = 2131361924;
+			// aapt resource value: 0x7f0a0087
+			public const int action_image = 2131361927;
 			
 			// aapt resource value: 0x7f0a0005
 			public const int action_menu_divider = 2131361797;
@@ -2284,11 +2326,11 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a0045
 			public const int action_mode_close_button = 2131361861;
 			
-			// aapt resource value: 0x7f0a0085
-			public const int action_text = 2131361925;
+			// aapt resource value: 0x7f0a0088
+			public const int action_text = 2131361928;
 			
-			// aapt resource value: 0x7f0a0093
-			public const int actions = 2131361939;
+			// aapt resource value: 0x7f0a0096
+			public const int actions = 2131361942;
 			
 			// aapt resource value: 0x7f0a0046
 			public const int activity_chooser_view_content = 2131361862;
@@ -2305,6 +2347,9 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a003e
 			public const int always = 2131361854;
 			
+			// aapt resource value: 0x7f0a0075
+			public const int appbar = 2131361909;
+			
 			// aapt resource value: 0x7f0a0016
 			public const int auto = 2131361814;
 			
@@ -2317,8 +2362,8 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a004d
 			public const int buttonPanel = 2131361869;
 			
-			// aapt resource value: 0x7f0a0087
-			public const int cancel_action = 2131361927;
+			// aapt resource value: 0x7f0a008a
+			public const int cancel_action = 2131361930;
 			
 			// aapt resource value: 0x7f0a0018
 			public const int center = 2131361816;
@@ -2332,8 +2377,8 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a005d
 			public const int checkbox = 2131361885;
 			
-			// aapt resource value: 0x7f0a008f
-			public const int chronometer = 2131361935;
+			// aapt resource value: 0x7f0a0092
+			public const int chronometer = 2131361938;
 			
 			// aapt resource value: 0x7f0a0024
 			public const int clip_horizontal = 2131361828;
@@ -2353,8 +2398,8 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a0056
 			public const int customPanel = 2131361878;
 			
-			// aapt resource value: 0x7f0a0075
-			public const int dayslistView = 2131361909;
+			// aapt resource value: 0x7f0a0078
+			public const int dayslistView = 2131361912;
 			
 			// aapt resource value: 0x7f0a0064
 			public const int decor_content_parent = 2131361892;
@@ -2362,20 +2407,20 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a0049
 			public const int default_activity_button = 2131361865;
 			
-			// aapt resource value: 0x7f0a0079
-			public const int design_bottom_sheet = 2131361913;
+			// aapt resource value: 0x7f0a007c
+			public const int design_bottom_sheet = 2131361916;
+			
+			// aapt resource value: 0x7f0a0083
+			public const int design_menu_item_action_area = 2131361923;
+			
+			// aapt resource value: 0x7f0a0082
+			public const int design_menu_item_action_area_stub = 2131361922;
+			
+			// aapt resource value: 0x7f0a0081
+			public const int design_menu_item_text = 2131361921;
 			
 			// aapt resource value: 0x7f0a0080
-			public const int design_menu_item_action_area = 2131361920;
-			
-			// aapt resource value: 0x7f0a007f
-			public const int design_menu_item_action_area_stub = 2131361919;
-			
-			// aapt resource value: 0x7f0a007e
-			public const int design_menu_item_text = 2131361918;
-			
-			// aapt resource value: 0x7f0a007d
-			public const int design_navigation_view = 2131361917;
+			public const int design_navigation_view = 2131361920;
 			
 			// aapt resource value: 0x7f0a0034
 			public const int disableHome = 2131361844;
@@ -2386,8 +2431,8 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a001b
 			public const int end = 2131361819;
 			
-			// aapt resource value: 0x7f0a0099
-			public const int end_padder = 2131361945;
+			// aapt resource value: 0x7f0a009c
+			public const int end_padder = 2131361948;
 			
 			// aapt resource value: 0x7f0a0011
 			public const int enterAlways = 2131361809;
@@ -2425,8 +2470,8 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a004b
 			public const int icon = 2131361867;
 			
-			// aapt resource value: 0x7f0a0094
-			public const int icon_group = 2131361940;
+			// aapt resource value: 0x7f0a0097
+			public const int icon_group = 2131361943;
 			
 			// aapt resource value: 0x7f0a0040
 			public const int ifRoom = 2131361856;
@@ -2434,38 +2479,41 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a0048
 			public const int image = 2131361864;
 			
-			// aapt resource value: 0x7f0a0090
-			public const int info = 2131361936;
+			// aapt resource value: 0x7f0a0093
+			public const int info = 2131361939;
 			
 			// aapt resource value: 0x7f0a000c
 			public const int item_touch_helper_previous_elevation = 2131361804;
 			
-			// aapt resource value: 0x7f0a0077
-			public const int largeLabel = 2131361911;
+			// aapt resource value: 0x7f0a007a
+			public const int largeLabel = 2131361914;
 			
 			// aapt resource value: 0x7f0a001d
 			public const int left = 2131361821;
 			
-			// aapt resource value: 0x7f0a0095
-			public const int line1 = 2131361941;
+			// aapt resource value: 0x7f0a0098
+			public const int line1 = 2131361944;
 			
-			// aapt resource value: 0x7f0a0097
-			public const int line3 = 2131361943;
+			// aapt resource value: 0x7f0a009a
+			public const int line3 = 2131361946;
 			
 			// aapt resource value: 0x7f0a0032
 			public const int listMode = 2131361842;
 			
-			// aapt resource value: 0x7f0a0082
-			public const int listView = 2131361922;
+			// aapt resource value: 0x7f0a0085
+			public const int listView = 2131361925;
 			
 			// aapt resource value: 0x7f0a004a
 			public const int list_item = 2131361866;
 			
-			// aapt resource value: 0x7f0a009b
-			public const int masked = 2131361947;
+			// aapt resource value: 0x7f0a0077
+			public const int mainToolBar = 2131361911;
 			
-			// aapt resource value: 0x7f0a0089
-			public const int media_actions = 2131361929;
+			// aapt resource value: 0x7f0a009e
+			public const int masked = 2131361950;
+			
+			// aapt resource value: 0x7f0a008c
+			public const int media_actions = 2131361932;
 			
 			// aapt resource value: 0x7f0a003d
 			public const int middle = 2131361853;
@@ -2476,8 +2524,8 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a002d
 			public const int multiply = 2131361837;
 			
-			// aapt resource value: 0x7f0a007c
-			public const int navigation_header_container = 2131361916;
+			// aapt resource value: 0x7f0a007f
+			public const int navigation_header_container = 2131361919;
 			
 			// aapt resource value: 0x7f0a0041
 			public const int never = 2131361857;
@@ -2488,14 +2536,14 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a002a
 			public const int normal = 2131361834;
 			
-			// aapt resource value: 0x7f0a0092
-			public const int notification_background = 2131361938;
+			// aapt resource value: 0x7f0a0095
+			public const int notification_background = 2131361941;
 			
-			// aapt resource value: 0x7f0a008c
-			public const int notification_main_column = 2131361932;
+			// aapt resource value: 0x7f0a008f
+			public const int notification_main_column = 2131361935;
 			
-			// aapt resource value: 0x7f0a008b
-			public const int notification_main_column_container = 2131361931;
+			// aapt resource value: 0x7f0a008e
+			public const int notification_main_column_container = 2131361934;
 			
 			// aapt resource value: 0x7f0a0022
 			public const int parallax = 2131361826;
@@ -2518,11 +2566,11 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a001e
 			public const int right = 2131361822;
 			
-			// aapt resource value: 0x7f0a0091
-			public const int right_icon = 2131361937;
+			// aapt resource value: 0x7f0a0094
+			public const int right_icon = 2131361940;
 			
-			// aapt resource value: 0x7f0a008d
-			public const int right_side = 2131361933;
+			// aapt resource value: 0x7f0a0090
+			public const int right_side = 2131361936;
 			
 			// aapt resource value: 0x7f0a002e
 			public const int screen = 2131361838;
@@ -2587,14 +2635,14 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a0038
 			public const int showTitle = 2131361848;
 			
-			// aapt resource value: 0x7f0a0076
-			public const int smallLabel = 2131361910;
+			// aapt resource value: 0x7f0a0079
+			public const int smallLabel = 2131361913;
 			
-			// aapt resource value: 0x7f0a007b
-			public const int snackbar_action = 2131361915;
+			// aapt resource value: 0x7f0a007e
+			public const int snackbar_action = 2131361918;
 			
-			// aapt resource value: 0x7f0a007a
-			public const int snackbar_text = 2131361914;
+			// aapt resource value: 0x7f0a007d
+			public const int snackbar_text = 2131361917;
 			
 			// aapt resource value: 0x7f0a0015
 			public const int snap = 2131361813;
@@ -2617,8 +2665,8 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a001f
 			public const int start = 2131361823;
 			
-			// aapt resource value: 0x7f0a0088
-			public const int status_bar_latest_event_content = 2131361928;
+			// aapt resource value: 0x7f0a008b
+			public const int status_bar_latest_event_content = 2131361931;
 			
 			// aapt resource value: 0x7f0a0060
 			public const int submenuarrow = 2131361888;
@@ -2629,11 +2677,11 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a0033
 			public const int tabMode = 2131361843;
 			
-			// aapt resource value: 0x7f0a0098
-			public const int text = 2131361944;
+			// aapt resource value: 0x7f0a009b
+			public const int text = 2131361947;
 			
-			// aapt resource value: 0x7f0a0096
-			public const int text2 = 2131361942;
+			// aapt resource value: 0x7f0a0099
+			public const int text2 = 2131361945;
 			
 			// aapt resource value: 0x7f0a0054
 			public const int textSpacerNoButtons = 2131361876;
@@ -2641,8 +2689,8 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a0053
 			public const int textSpacerNoTitle = 2131361875;
 			
-			// aapt resource value: 0x7f0a0081
-			public const int text_input_password_toggle = 2131361921;
+			// aapt resource value: 0x7f0a0084
+			public const int text_input_password_toggle = 2131361924;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int textinput_counter = 2131361792;
@@ -2650,8 +2698,8 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a0001
 			public const int textinput_error = 2131361793;
 			
-			// aapt resource value: 0x7f0a008e
-			public const int time = 2131361934;
+			// aapt resource value: 0x7f0a0091
+			public const int time = 2131361937;
 			
 			// aapt resource value: 0x7f0a004c
 			public const int title = 2131361868;
@@ -2662,14 +2710,17 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a0059
 			public const int title_template = 2131361881;
 			
+			// aapt resource value: 0x7f0a0076
+			public const int toolbar = 2131361910;
+			
 			// aapt resource value: 0x7f0a0020
 			public const int top = 2131361824;
 			
 			// aapt resource value: 0x7f0a0058
 			public const int topPanel = 2131361880;
 			
-			// aapt resource value: 0x7f0a0078
-			public const int touch_outside = 2131361912;
+			// aapt resource value: 0x7f0a007b
+			public const int touch_outside = 2131361915;
 			
 			// aapt resource value: 0x7f0a000d
 			public const int transition_current_scene = 2131361805;
@@ -2686,8 +2737,8 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a0002
 			public const int view_offset_helper = 2131361794;
 			
-			// aapt resource value: 0x7f0a009a
-			public const int visible = 2131361946;
+			// aapt resource value: 0x7f0a009d
+			public const int visible = 2131361949;
 			
 			// aapt resource value: 0x7f0a0042
 			public const int withText = 2131361858;
@@ -5534,8 +5585,8 @@ namespace SPUCafe.Droid
 			
 			public static int[] MvxBinding = new int[]
 			{
-					2130772282,
-					2130772283};
+					2130772283,
+					2130772284};
 			
 			// aapt resource value: 0
 			public const int MvxBinding_MvxBind = 0;
@@ -5545,35 +5596,42 @@ namespace SPUCafe.Droid
 			
 			public static int[] MvxControl = new int[]
 			{
-					2130772284};
+					2130772285};
 			
 			// aapt resource value: 0
 			public const int MvxControl_MvxTemplate = 0;
 			
 			public static int[] MvxExpandableListView = new int[]
 			{
-					2130772287};
+					2130772288};
 			
 			// aapt resource value: 0
 			public const int MvxExpandableListView_MvxGroupItemTemplate = 0;
 			
 			public static int[] MvxImageView = new int[]
 			{
-					2130772288};
+					2130772289};
 			
 			// aapt resource value: 0
 			public const int MvxImageView_MvxSource = 0;
 			
 			public static int[] MvxListView = new int[]
 			{
-					2130772285,
-					2130772286};
+					2130772286,
+					2130772287};
 			
 			// aapt resource value: 1
 			public const int MvxListView_MvxDropDownItemTemplate = 1;
 			
 			// aapt resource value: 0
 			public const int MvxListView_MvxItemTemplate = 0;
+			
+			public static int[] MvxRecyclerView = new int[]
+			{
+					2130772282};
+			
+			// aapt resource value: 0
+			public const int MvxRecyclerView_MvxTemplateSelector = 0;
 			
 			public static int[] NavigationView = new int[]
 			{
