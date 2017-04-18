@@ -4,7 +4,7 @@ using MvvmCross.Droid.Views;
 
 namespace SPUCafe.Droid
 {
-	[Activity(Label = "Meals")]
+[Activity(Label = "Meals", Theme = "@android:style/Theme.Material.Light.NoActionBar")]
 	public class MealsView : MvxActivity
 	{
 		protected override void OnCreate(Bundle bundle)
