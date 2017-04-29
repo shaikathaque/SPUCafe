@@ -20,17 +20,17 @@ namespace SPUCafe.Core
 
 	public class Meal
 	{
-		public String MealName { get; set; }
+		public string MealName { get; set; }
 		public MealItems Items { get; set; }
 	}
 
 	public class MealItems
 	{
-		public MvxObservableCollection<String> ItemsList { get; set; }
+		public MvxObservableCollection<string> ItemsList { get; set; }
 
 		public MealItems()
 		{
-			ItemsList = new MvxObservableCollection<String>();
+			ItemsList = new MvxObservableCollection<string>();
 
 			ItemsList.Add("Chicken");
 			ItemsList.Add("Rice");
