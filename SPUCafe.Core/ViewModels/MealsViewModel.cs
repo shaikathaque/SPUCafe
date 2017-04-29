@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using MvvmCross.Core.ViewModels;
 
 namespace SPUCafe.Core
@@ -20,5 +21,20 @@ namespace SPUCafe.Core
 	public class Meal
 	{
 		public String MealName { get; set; }
+		public MealItems Items { get; set; }
+	}
+
+	public class MealItems
+	{
+		public MvxObservableCollection<String> ItemsList { get; set; }
+
+		public MealItems()
+		{
+			ItemsList = new MvxObservableCollection<String>();
+
+			ItemsList.Add("Chicken");
+			ItemsList.Add("Rice");
+			ItemsList.Add("Pasta");
+		}
 	}
 }
