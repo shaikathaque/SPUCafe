@@ -123,6 +123,7 @@
     <Compile Include="Views\MainView.cs" />
     <Compile Include="Views\DaysView.cs" />
     <Compile Include="Views\MealsView.cs" />
+    <Compile Include="Views\ItemsView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -138,6 +139,8 @@
     <AndroidResource Include="Resources\layout\days_list_item.axml" />
     <AndroidResource Include="Resources\layout\meals_view.axml" />
     <AndroidResource Include="Resources\layout\meals_list_item.axml" />
+    <AndroidResource Include="Resources\layout\items_view.axml" />
+    <AndroidResource Include="Resources\layout\items_list_item.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\mipmap-hdpi\" />

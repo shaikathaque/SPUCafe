@@ -30,6 +30,6 @@ namespace SPUCafe.Core
 
 	public class Day
 	{
-		public String DayName { get; set; }	
+		public string DayName { get; set; }	
 	}
 }

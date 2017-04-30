@@ -20,14 +20,14 @@
                 android:layout_gravity="center_vertical|left"
                 android:textColor="#000000"
                 style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
-                android:text="Meals" />
+                android:text="Entrees" />
         </android.support.v7.widget.Toolbar>
     </android.support.design.widget.AppBarLayout>
     <MvvmCross.Droid.Support.V7.RecyclerView.MvxRecyclerView
         android:layout_below="@id/appbar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/mealslistView"
-        local:MvxItemTemplate="@layout/meals_list_item"
-        local:MvxBind="ItemsSource Meals; ItemClick ShowItemsCommand" />
+        android:id="@+id/itemslistView"
+        local:MvxItemTemplate="@layout/items_list_item"
+        local:MvxBind="ItemsSource Items" />
 </RelativeLayout>

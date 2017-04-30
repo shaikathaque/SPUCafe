@@ -33,6 +33,7 @@
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\DaysViewModel.cs" />
     <Compile Include="ViewModels\MealsViewModel.cs" />
+    <Compile Include="ViewModels\ItemsViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MvvmCross.Platform">

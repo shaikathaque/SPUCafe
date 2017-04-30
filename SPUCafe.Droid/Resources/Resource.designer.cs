@@ -2275,8 +2275,8 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a0010
 			public const int MvxBindingTagUnique = 2131361808;
 			
-			// aapt resource value: 0x7f0a008a
-			public const int action0 = 2131361930;
+			// aapt resource value: 0x7f0a008b
+			public const int action0 = 2131361931;
 			
 			// aapt resource value: 0x7f0a0066
 			public const int action_bar = 2131361894;
@@ -2299,17 +2299,17 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a0043
 			public const int action_bar_title = 2131361859;
 			
-			// aapt resource value: 0x7f0a0087
-			public const int action_container = 2131361927;
+			// aapt resource value: 0x7f0a0088
+			public const int action_container = 2131361928;
 			
 			// aapt resource value: 0x7f0a0067
 			public const int action_context_bar = 2131361895;
 			
-			// aapt resource value: 0x7f0a008e
-			public const int action_divider = 2131361934;
+			// aapt resource value: 0x7f0a008f
+			public const int action_divider = 2131361935;
 			
-			// aapt resource value: 0x7f0a0088
-			public const int action_image = 2131361928;
+			// aapt resource value: 0x7f0a0089
+			public const int action_image = 2131361929;
 			
 			// aapt resource value: 0x7f0a0005
 			public const int action_menu_divider = 2131361797;
@@ -2326,11 +2326,11 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a0045
 			public const int action_mode_close_button = 2131361861;
 			
-			// aapt resource value: 0x7f0a0089
-			public const int action_text = 2131361929;
+			// aapt resource value: 0x7f0a008a
+			public const int action_text = 2131361930;
 			
-			// aapt resource value: 0x7f0a0097
-			public const int actions = 2131361943;
+			// aapt resource value: 0x7f0a0098
+			public const int actions = 2131361944;
 			
 			// aapt resource value: 0x7f0a0046
 			public const int activity_chooser_view_content = 2131361862;
@@ -2362,8 +2362,8 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a004d
 			public const int buttonPanel = 2131361869;
 			
-			// aapt resource value: 0x7f0a008b
-			public const int cancel_action = 2131361931;
+			// aapt resource value: 0x7f0a008c
+			public const int cancel_action = 2131361932;
 			
 			// aapt resource value: 0x7f0a0018
 			public const int center = 2131361816;
@@ -2377,8 +2377,8 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a005d
 			public const int checkbox = 2131361885;
 			
-			// aapt resource value: 0x7f0a0093
-			public const int chronometer = 2131361939;
+			// aapt resource value: 0x7f0a0094
+			public const int chronometer = 2131361940;
 			
 			// aapt resource value: 0x7f0a0024
 			public const int clip_horizontal = 2131361828;
@@ -2431,8 +2431,8 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a001b
 			public const int end = 2131361819;
 			
-			// aapt resource value: 0x7f0a009d
-			public const int end_padder = 2131361949;
+			// aapt resource value: 0x7f0a009e
+			public const int end_padder = 2131361950;
 			
 			// aapt resource value: 0x7f0a0011
 			public const int enterAlways = 2131361809;
@@ -2470,8 +2470,8 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a004b
 			public const int icon = 2131361867;
 			
-			// aapt resource value: 0x7f0a0098
-			public const int icon_group = 2131361944;
+			// aapt resource value: 0x7f0a0099
+			public const int icon_group = 2131361945;
 			
 			// aapt resource value: 0x7f0a0040
 			public const int ifRoom = 2131361856;
@@ -2479,11 +2479,14 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a0048
 			public const int image = 2131361864;
 			
-			// aapt resource value: 0x7f0a0094
-			public const int info = 2131361940;
+			// aapt resource value: 0x7f0a0095
+			public const int info = 2131361941;
 			
 			// aapt resource value: 0x7f0a000c
 			public const int item_touch_helper_previous_elevation = 2131361804;
+			
+			// aapt resource value: 0x7f0a0085
+			public const int itemslistView = 2131361925;
 			
 			// aapt resource value: 0x7f0a007a
 			public const int largeLabel = 2131361914;
@@ -2491,17 +2494,17 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a001d
 			public const int left = 2131361821;
 			
-			// aapt resource value: 0x7f0a0099
-			public const int line1 = 2131361945;
+			// aapt resource value: 0x7f0a009a
+			public const int line1 = 2131361946;
 			
-			// aapt resource value: 0x7f0a009b
-			public const int line3 = 2131361947;
+			// aapt resource value: 0x7f0a009c
+			public const int line3 = 2131361948;
 			
 			// aapt resource value: 0x7f0a0032
 			public const int listMode = 2131361842;
 			
-			// aapt resource value: 0x7f0a0085
-			public const int listView = 2131361925;
+			// aapt resource value: 0x7f0a0086
+			public const int listView = 2131361926;
 			
 			// aapt resource value: 0x7f0a004a
 			public const int list_item = 2131361866;
@@ -2509,14 +2512,14 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a0077
 			public const int mainToolBar = 2131361911;
 			
-			// aapt resource value: 0x7f0a009f
-			public const int masked = 2131361951;
+			// aapt resource value: 0x7f0a00a0
+			public const int masked = 2131361952;
 			
-			// aapt resource value: 0x7f0a0086
-			public const int mealslistView = 2131361926;
+			// aapt resource value: 0x7f0a0087
+			public const int mealslistView = 2131361927;
 			
-			// aapt resource value: 0x7f0a008d
-			public const int media_actions = 2131361933;
+			// aapt resource value: 0x7f0a008e
+			public const int media_actions = 2131361934;
 			
 			// aapt resource value: 0x7f0a003d
 			public const int middle = 2131361853;
@@ -2539,14 +2542,14 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a002a
 			public const int normal = 2131361834;
 			
-			// aapt resource value: 0x7f0a0096
-			public const int notification_background = 2131361942;
+			// aapt resource value: 0x7f0a0097
+			public const int notification_background = 2131361943;
+			
+			// aapt resource value: 0x7f0a0091
+			public const int notification_main_column = 2131361937;
 			
 			// aapt resource value: 0x7f0a0090
-			public const int notification_main_column = 2131361936;
-			
-			// aapt resource value: 0x7f0a008f
-			public const int notification_main_column_container = 2131361935;
+			public const int notification_main_column_container = 2131361936;
 			
 			// aapt resource value: 0x7f0a0022
 			public const int parallax = 2131361826;
@@ -2569,11 +2572,11 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a001e
 			public const int right = 2131361822;
 			
-			// aapt resource value: 0x7f0a0095
-			public const int right_icon = 2131361941;
+			// aapt resource value: 0x7f0a0096
+			public const int right_icon = 2131361942;
 			
-			// aapt resource value: 0x7f0a0091
-			public const int right_side = 2131361937;
+			// aapt resource value: 0x7f0a0092
+			public const int right_side = 2131361938;
 			
 			// aapt resource value: 0x7f0a002e
 			public const int screen = 2131361838;
@@ -2668,8 +2671,8 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a001f
 			public const int start = 2131361823;
 			
-			// aapt resource value: 0x7f0a008c
-			public const int status_bar_latest_event_content = 2131361932;
+			// aapt resource value: 0x7f0a008d
+			public const int status_bar_latest_event_content = 2131361933;
 			
 			// aapt resource value: 0x7f0a0060
 			public const int submenuarrow = 2131361888;
@@ -2680,11 +2683,11 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a0033
 			public const int tabMode = 2131361843;
 			
-			// aapt resource value: 0x7f0a009c
-			public const int text = 2131361948;
+			// aapt resource value: 0x7f0a009d
+			public const int text = 2131361949;
 			
-			// aapt resource value: 0x7f0a009a
-			public const int text2 = 2131361946;
+			// aapt resource value: 0x7f0a009b
+			public const int text2 = 2131361947;
 			
 			// aapt resource value: 0x7f0a0054
 			public const int textSpacerNoButtons = 2131361876;
@@ -2701,8 +2704,8 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a0001
 			public const int textinput_error = 2131361793;
 			
-			// aapt resource value: 0x7f0a0092
-			public const int time = 2131361938;
+			// aapt resource value: 0x7f0a0093
+			public const int time = 2131361939;
 			
 			// aapt resource value: 0x7f0a004c
 			public const int title = 2131361868;
@@ -2740,8 +2743,8 @@ namespace SPUCafe.Droid
 			// aapt resource value: 0x7f0a0002
 			public const int view_offset_helper = 2131361794;
 			
-			// aapt resource value: 0x7f0a009e
-			public const int visible = 2131361950;
+			// aapt resource value: 0x7f0a009f
+			public const int visible = 2131361951;
 			
 			// aapt resource value: 0x7f0a0042
 			public const int withText = 2131361858;
@@ -2935,70 +2938,76 @@ namespace SPUCafe.Droid
 			public const int item = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int main = 2130903084;
+			public const int items_list_item = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int meals_list_item = 2130903085;
+			public const int items_view = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int meals_view = 2130903086;
+			public const int main = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int notification_action = 2130903087;
+			public const int meals_list_item = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int notification_action_tombstone = 2130903088;
+			public const int meals_view = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int notification_media_action = 2130903089;
+			public const int notification_action = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int notification_media_cancel_action = 2130903090;
+			public const int notification_action_tombstone = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int notification_template_big_media = 2130903091;
+			public const int notification_media_action = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int notification_template_big_media_custom = 2130903092;
+			public const int notification_media_cancel_action = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int notification_template_big_media_narrow = 2130903093;
+			public const int notification_template_big_media = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int notification_template_big_media_narrow_custom = 2130903094;
+			public const int notification_template_big_media_custom = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int notification_template_custom_big = 2130903095;
+			public const int notification_template_big_media_narrow = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int notification_template_icon_group = 2130903096;
+			public const int notification_template_big_media_narrow_custom = 2130903096;
 			
 			// aapt resource value: 0x7f030039
-			public const int notification_template_lines_media = 2130903097;
+			public const int notification_template_custom_big = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int notification_template_media = 2130903098;
+			public const int notification_template_icon_group = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int notification_template_media_custom = 2130903099;
+			public const int notification_template_lines_media = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int notification_template_part_chronometer = 2130903100;
+			public const int notification_template_media = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int notification_template_part_time = 2130903101;
+			public const int notification_template_media_custom = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int select_dialog_item_material = 2130903102;
+			public const int notification_template_part_chronometer = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int select_dialog_multichoice_material = 2130903103;
+			public const int notification_template_part_time = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int select_dialog_singlechoice_material = 2130903104;
+			public const int select_dialog_item_material = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int support_simple_spinner_dropdown_item = 2130903105;
+			public const int select_dialog_multichoice_material = 2130903105;
+			
+			// aapt resource value: 0x7f030042
+			public const int select_dialog_singlechoice_material = 2130903106;
+			
+			// aapt resource value: 0x7f030043
+			public const int support_simple_spinner_dropdown_item = 2130903107;
 			
 			static Layout()
 			{
