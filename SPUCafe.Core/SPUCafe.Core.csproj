@@ -34,6 +34,15 @@
     <Compile Include="ViewModels\DaysViewModel.cs" />
     <Compile Include="ViewModels\MealsViewModel.cs" />
     <Compile Include="ViewModels\ItemsViewModel.cs" />
+    <Compile Include="Models\CafeData.cs" />
+    <Compile Include="Services\Interfaces\ICafeDataService.cs" />
+    <Compile Include="Services\CafeDataService.cs" />
+    <Compile Include="Repositories\Interfaces\ICafeDataRepository.cs" />
+    <Compile Include="Repositories\CafeDataRepository.cs" />
+    <Compile Include="Models\Week.cs" />
+    <Compile Include="Models\Day.cs" />
+    <Compile Include="Models\Meal.cs" />
+    <Compile Include="Models\Item.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MvvmCross.Platform">
@@ -54,6 +63,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewModels\" />
+    <Folder Include="Models\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Repositories\Interfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>

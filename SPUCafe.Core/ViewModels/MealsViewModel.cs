@@ -24,9 +24,4 @@ namespace SPUCafe.Core
 			ShowViewModel<ItemsViewModel>();
 		}
 	}
-
-	public class Meal
-	{
-		public string MealName { get; set; }
-	}
 }

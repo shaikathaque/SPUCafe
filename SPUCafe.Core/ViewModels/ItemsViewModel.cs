@@ -11,17 +11,12 @@ namespace SPUCafe.Core
 		{
 			Items = new MvxObservableCollection<Item>();
 
-			Items.Add(new Item { ItemName = "Chicken" });
-			Items.Add(new Item { ItemName = "Mashed Potatoes" });
-			Items.Add(new Item { ItemName = "Lasgna" });
-			Items.Add(new Item { ItemName = "Beed" });
-			Items.Add(new Item { ItemName = "Rice" });
+			//Items.Add(new Item { ItemName = "Chicken" });
+			//Items.Add(new Item { ItemName = "Mashed Potatoes" });
+			//Items.Add(new Item { ItemName = "Lasgna" });
+			//Items.Add(new Item { ItemName = "Beed" });
+			//Items.Add(new Item { ItemName = "Rice" });
 		}
 
-	}
-
-	public class Item
-	{	
-		public string ItemName { get; set; }
 	}
 }

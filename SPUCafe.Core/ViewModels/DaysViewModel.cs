@@ -27,9 +27,4 @@ namespace SPUCafe.Core
 			ShowViewModel<MealsViewModel>();
 		}
 	}
-
-	public class Day
-	{
-		public string DayName { get; set; }	
-	}
 }

@@ -21,9 +21,4 @@ namespace SPUCafe.Core
 			ShowViewModel<DaysViewModel>();
 		}
 	}
-
-	public class Week
-	{
-		public string DateRange { get; set; }
-	}
 }
