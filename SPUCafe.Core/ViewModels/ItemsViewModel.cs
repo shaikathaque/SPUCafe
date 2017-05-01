@@ -5,11 +5,27 @@ namespace SPUCafe.Core
 {
 	public class ItemsViewModel : MvxViewModel
 	{
-		public MvxObservableCollection<Item> Items { get; set; } 
+		ICafeDataService _cafeDataService;
 
-		public ItemsViewModel()
+		public int weekId { get; set; }
+		public int dayId { get; set; }
+		public int mealId { get; set;}
+
+
+		public MvxObservableCollection<Item> Items { get; set; }
+
+		public void Init(int weekIndex, int dayIndex, int mealIndex)
 		{
-			Items = new MvxObservableCollection<Item>();
+			weekId = weekIndex;
+			dayId = dayIndex;
+			mealId = mealIndex;
+
+			Items = new MvxObservableCollection<Item>(_cafeDataService.getItems(weekId, dayId, mealId));
+		}
+
+		public ItemsViewModel(ICafeDataService cafeDataService)
+		{
+			_cafeDataService = cafeDataService;
 
 			//Items.Add(new Item { ItemName = "Chicken" });
 			//Items.Add(new Item { ItemName = "Mashed Potatoes" });
