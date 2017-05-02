@@ -26,12 +26,6 @@ namespace SPUCafe.Core
 		public ItemsViewModel(ICafeDataService cafeDataService)
 		{
 			_cafeDataService = cafeDataService;
-
-			//Items.Add(new Item { ItemName = "Chicken" });
-			//Items.Add(new Item { ItemName = "Mashed Potatoes" });
-			//Items.Add(new Item { ItemName = "Lasgna" });
-			//Items.Add(new Item { ItemName = "Beed" });
-			//Items.Add(new Item { ItemName = "Rice" });
 		}
 
 	}
