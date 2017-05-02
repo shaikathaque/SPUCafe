@@ -1,35 +1,36 @@
 ﻿using System;
+using System.Diagnostics;
 using MvvmCross.Core.ViewModels;
 
 namespace SPUCafe.Core
 {
 	public class DaysViewModel : MvxViewModel
 	{
+		readonly ICafeDataService _cafeDataService;
+
+		public int weekId { get; set; }
+
 		public MvxObservableCollection<Day> Days { get; set; }
 
 		public MvxCommand<Day> ShowMealsCommand => new MvxCommand<Day>(ShowMealsViewModel);
 
-		public DaysViewModel()
+		public void Init(int weekIndex)
 		{
-			Days = new MvxObservableCollection<Day>();
+			weekId = weekIndex;
 
-			Days.Add(new Day { DayName = "Monday" });
-			Days.Add(new Day { DayName = "Tuesday" });
-			Days.Add(new Day { DayName = "Wednesday" });
-			Days.Add(new Day { DayName = "Thursday" });
-			Days.Add(new Day { DayName = "Friday" });
-			Days.Add(new Day { DayName = "Saturday" });
-			Days.Add(new Day { DayName = "Sunday" });
+			Days = new MvxObservableCollection<Day>(_cafeDataService.getDays(weekId));
+		}
+
+		public DaysViewModel(ICafeDataService cafeDataService)
+		{
+			_cafeDataService = cafeDataService;
 		}
 
 		void ShowMealsViewModel(Day obj)
 		{
-			ShowViewModel<MealsViewModel>();
+			int dayId = Days.IndexOf(obj);
+			Debug.WriteLine(dayId);
+			ShowViewModel<MealsViewModel>(new { weekIndex = weekId, dayIndex = dayId });
 		}
-	}
-
-	public class Day
-	{
-		public string DayName { get; set; }	
 	}
 }

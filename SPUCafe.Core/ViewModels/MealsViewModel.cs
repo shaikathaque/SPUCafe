@@ -6,27 +6,37 @@ namespace SPUCafe.Core
 {
 	public class MealsViewModel : MvxViewModel
 	{
+		ICafeDataService _cafeDataService;
+
+		public int weekId { get; set; }
+
+		public int dayId { get; set; }
+
 		public MvxObservableCollection<Meal> Meals { get; set; }
 
 		public MvxCommand<Meal> ShowItemsCommand => new MvxCommand<Meal>(ShowItemsViewModel);
 
-		public MealsViewModel()
+		public void Init(int weekIndex, int dayIndex)
 		{
-			Meals = new MvxObservableCollection<Meal>();
+			weekId = weekIndex;
+			dayId = dayIndex;
 
-			Meals.Add(new Meal { MealName = "Breakfast" });
-			Meals.Add(new Meal { MealName = "Lunch" });
-			Meals.Add(new Meal { MealName = "Dinner" });
+			Meals = new MvxObservableCollection<Meal>(_cafeDataService.getMeals(weekId, dayId));
+		}
+
+		public MealsViewModel(ICafeDataService cafeDataService)
+		{
+			_cafeDataService = cafeDataService;
+
+			//Meals.Add(new Meal { MealName = "Breakfast" });
+			//Meals.Add(new Meal { MealName = "Lunch" });
+			//Meals.Add(new Meal { MealName = "Dinner" });
 		}
 
 		void ShowItemsViewModel(Meal obj)
 		{
-			ShowViewModel<ItemsViewModel>();
+			int mealId = Meals.IndexOf(obj);
+			ShowViewModel<ItemsViewModel>(new { weekIndex = weekId, dayIndex = dayId, mealIndex = mealId });
 		}
-	}
-
-	public class Meal
-	{
-		public string MealName { get; set; }
 	}
 }

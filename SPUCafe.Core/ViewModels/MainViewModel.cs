@@ -1,29 +1,29 @@
 ﻿using System;
+using System.Diagnostics;
 using MvvmCross.Core.ViewModels;
 
 namespace SPUCafe.Core
 {
 	public class MainViewModel : MvxViewModel
 	{
+		readonly ICafeDataService _cafeDataService;
+
 		public MvxObservableCollection<Week> Weeks { get; set; }
 
 		public MvxCommand<Week> ShowDaysCommand => new MvxCommand<Week>(ShowDaysViewModel);
 
-		public MainViewModel()
+		public MainViewModel(ICafeDataService cafeDataService)
 		{
-			Weeks = new MvxObservableCollection<Week>();
-			Weeks.Add(new Week { DateRange = "4/3/2017 - 4/9/2017" });
-			Weeks.Add(new Week { DateRange = "4/10/2017 - 4/16/2017" });
+			_cafeDataService = cafeDataService;
+
+			Weeks = new MvxObservableCollection<Week>(_cafeDataService.getWeeks());
 		}
 
 		void ShowDaysViewModel(Week obj)
 		{
-			ShowViewModel<DaysViewModel>();
+			int weekId = Weeks.IndexOf(obj);
+			Debug.WriteLine(weekId);
+			ShowViewModel<DaysViewModel>(new { weekIndex = weekId });
 		}
-	}
-
-	public class Week
-	{
-		public string DateRange { get; set; }
 	}
 }

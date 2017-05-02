@@ -34,6 +34,16 @@
     <Compile Include="ViewModels\DaysViewModel.cs" />
     <Compile Include="ViewModels\MealsViewModel.cs" />
     <Compile Include="ViewModels\ItemsViewModel.cs" />
+    <Compile Include="Models\CafeData.cs" />
+    <Compile Include="Services\Interfaces\ICafeDataService.cs" />
+    <Compile Include="Services\CafeDataService.cs" />
+    <Compile Include="Repositories\Interfaces\ICafeDataRepository.cs" />
+    <Compile Include="Repositories\CafeDataRepository.cs" />
+    <Compile Include="Models\Week.cs" />
+    <Compile Include="Models\Day.cs" />
+    <Compile Include="Models\Meal.cs" />
+    <Compile Include="Models\Item.cs" />
+    <Compile Include="Services\ScraperService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MvvmCross.Platform">
@@ -48,12 +58,20 @@
     <Reference Include="MvvmCross.Localization">
       <HintPath>..\packages\MvvmCross.Binding.4.4.0\lib\portable-net45+win+wpa81+wp80\MvvmCross.Localization.dll</HintPath>
     </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\packages\HtmlAgilityPack.1.4.9.5\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch\HtmlAgilityPack.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewModels\" />
+    <Folder Include="Models\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Repositories\Interfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>
