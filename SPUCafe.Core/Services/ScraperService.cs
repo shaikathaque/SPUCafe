@@ -3,28 +3,37 @@ using System.Threading.Tasks;
 using HtmlAgilityPack;
 using System.Diagnostics;
 using System.Diagnostics.Contracts;
+using System.Linq;
 
 namespace SPUCafe.Core 
 {
 	public class ScraperService : IScraperService
 	{
 		HtmlDocument _doc;
+		string _week;
 
 		public async Task<string> getDocAsync()
 		{
 			HtmlWeb web = new HtmlWeb();
-			HtmlDocument doc = await web.LoadFromWebAsync("https://saintpeters.sodexomyway.com/dining-choices/index.html");
+			_doc = await web.LoadFromWebAsync("https://saintpeters.sodexomyway.com/dining-choices/index.html");
 
-			//Debug.WriteLine(doc.DocumentNode.InnerHtml);
-			String result = await printDoc(doc);
-			return result;
+			Debug.WriteLine(_doc.DocumentNode.InnerHtml);
+
+			string textFromDoc = getText(_doc);
+			Debug.WriteLine(textFromDoc);
+			return textFromDoc;
 		}
 
-		public async Task<string> printDoc(HtmlDocument doc)
+		public string getText(HtmlDocument document)
 		{
-			_doc = doc;	
-			Debug.WriteLine(_doc.DocumentNode.InnerHtml);
-			return "this is fake cafe data!";
+			var linkNode = document.DocumentNode.Descendants("a").FirstOrDefault(x => x.InnerHtml.Contains("the Menu"));
+			_week = linkNode.InnerHtml;
+			return linkNode.InnerHtml;
+		}
+
+		public string getWeek()
+		{
+			return _week;
 		}
 	}
 }

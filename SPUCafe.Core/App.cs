@@ -8,7 +8,7 @@ namespace SPUCafe.Core
 {
 	public class App : MvxApplication
 	{
-		public override async void Initialize()
+		public override void Initialize()
 		{
 			base.Initialize();
 
@@ -21,17 +21,6 @@ namespace SPUCafe.Core
 				.EndingWith("Service")
 				.AsInterfaces()
 				.RegisterAsLazySingleton();
-
-			ScraperService scraper = new ScraperService();
-			string result = await scraper.getDocAsync();
-			await log(result);
-
 		}
-
-		public async Task log(string result)
-		{
-			Debug.WriteLine(result);
-		}
-
 	}
 }

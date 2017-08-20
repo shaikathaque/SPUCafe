@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace SPUCafe.Core
 {
@@ -240,6 +241,8 @@ namespace SPUCafe.Core
 			day7.Meals = new List<Meal>();
 			day7.Meals.Add(mealSun1);
 			day7.Meals.Add(mealSun2);
+
+			Debug.WriteLine("Called inside CafeDataRepository constructor");
 
 			//add day objects to week object
 			Week week1 = new Week();

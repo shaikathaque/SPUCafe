@@ -14,9 +14,6 @@ namespace SPUCafe.Core
 
 		public MainViewModel(ICafeDataService cafeDataService)
 		{
-			//ScraperService scraper = new ScraperService();
-			//var doc = scraper.getDocAsync();
-
 			_cafeDataService = cafeDataService;
 			Weeks = new MvxObservableCollection<Week>(_cafeDataService.getWeeks());
 		}
