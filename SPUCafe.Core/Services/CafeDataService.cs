@@ -5,11 +5,11 @@ namespace SPUCafe.Core
 {
 	public class CafeDataService : ICafeDataService
 	{
-		readonly ICafeDataRepository _cafeDataRepository;
+		readonly CafeDataRepository _cafeDataRepository;
 
-		public CafeDataService(ICafeDataRepository cafeDataRepository)
+		public CafeDataService()
 		{
-			_cafeDataRepository = cafeDataRepository;
+			_cafeDataRepository = new CafeDataRepository();
 		}
 
 		public CafeData getCafeData()

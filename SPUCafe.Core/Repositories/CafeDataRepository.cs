@@ -4,7 +4,7 @@ using System.Diagnostics;
 
 namespace SPUCafe.Core
 {
-	public class CafeDataRepository : ICafeDataRepository
+	public class CafeDataRepository
 	{
 		CafeData cafeData;
 
@@ -242,11 +242,14 @@ namespace SPUCafe.Core
 			day7.Meals.Add(mealSun1);
 			day7.Meals.Add(mealSun2);
 
-			Debug.WriteLine("Called inside CafeDataRepository constructor");
+			Debug.WriteLine("CafeDataRepository constructor called");
 
 			//add day objects to week object
 			Week week1 = new Week();
-			week1.DateRange = "5/1/2017 - 5/7/2017";
+
+			//week1.DateRange = "5/1/2017 - 5/7/2017";
+			week1.DateRange = ScraperService.getWeek();
+
 			week1.Days = new List<Day>();
 			week1.Days.Add(day1);
 			week1.Days.Add(day2);

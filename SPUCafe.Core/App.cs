@@ -10,17 +10,16 @@ namespace SPUCafe.Core
 	{
 		public override void Initialize()
 		{
+			Debug.WriteLine("App.cs Initialize called before base.Initialize");
 			base.Initialize();
-
-			CreatableTypes()
-				.EndingWith("Repository")
-				.AsInterfaces()
-				.RegisterAsLazySingleton();
+			Debug.WriteLine("App.cs Initialize after base.Initialize");
 
 			CreatableTypes()
 				.EndingWith("Service")
 				.AsInterfaces()
 				.RegisterAsLazySingleton();
 		}
+
+
 	}
 }

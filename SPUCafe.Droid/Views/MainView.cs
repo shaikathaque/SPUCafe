@@ -7,15 +7,17 @@ using System.Diagnostics;
 namespace SPUCafe.Droid
 {
 	[Activity(Label = "SPU Cafe", MainLauncher = true, Theme = "@android:style/Theme.Material.Light.NoActionBar")]
-	public class MainView : MvxActivity
+	public class MainView : MvxActivity<MainViewModel>
 	{
 		protected async override void OnCreate(Bundle bundle)
 		{
 			base.OnCreate(bundle);
+			System.Diagnostics.Debug.WriteLine("Main Activity OnCreate Called");
 
-			ScraperService scraper = new ScraperService();
-			string strFromScraper = await scraper.getDocAsync();
-			System.Diagnostics.Debug.WriteLine("Inside Main Activity. This is the string returned by getDocAsync:" + strFromScraper);
+			string strFromScraper = await ScraperService.getDocAsync();
+			System.Diagnostics.Debug.WriteLine("Inside MainView.cs, This is the string returned by getDocAsync:" + strFromScraper);
+
+			ViewModel.LoadData();
 
 			SetContentView(Resource.Layout.main);
 		}
